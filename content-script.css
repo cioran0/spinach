@@ -47,6 +47,11 @@ svg {
 /* Preserve Reddit Post Content and Prevent Hiding */
 /* We need more specific selectors to prevent Reddit's own styles from making content invisible */
 /* This is a starting point and might need refinement based on Reddit's current structure */
+.user-draw-content *{
+  color: green !important;
+    background-color: white;
+}
+
 .Post,
 .Post *,
 .Comment,
