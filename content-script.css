@@ -85,53 +85,26 @@ svg {
 
 /* for youtube overrides for ther video previews so they show up*/
 
-/* Target the main YouTube video player */
-.html5-video-container, /* The container holding the video element */
-.html5-video-container *, /* Children within the container */
-.html5-video-player, /* The player element itself */
-.html5-video-player * {
-    background-color: transparent !important; /* Ensure transparency */
-    /* You might also need to ensure they are displayed */
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+#description{
+  color:green !important;
+  background-color: transparent;
 }
 
-/* Target the video thumbnail and preview elements */
-.ytp-thumbnail, /* The thumbnail element */
-.ytp-thumbnail * { /* Children within the thumbnail */
-     background-color: transparent !important;
-     display: block !important;
-     visibility: visible !important;
-     opacity: 1 !important;
+#spinner-container,
+#contents
+{
+  background-color: transparent !important;
 }
-
-/* Target the video element itself */
-video {
-    background-color: transparent !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+#video-title {
+  color: green !important;
+  background-color: transparent;
 }
-
-/* Ensure controls and other player elements are visible */
-.ytp-chrome-bottom,
-.ytp-chrome-bottom *,
-.ytp-play-button,
-.ytp-play-button *,
-.ytp-progress-bar,
-.ytp-progress-bar *,
-.ytp-volume-slider,
-.ytp-volume-slider *,
-.ytp-fullscreen-button,
-.ytp-fullscreen-button * {
-     background-color: transparent !important;
-     /* You might need to ensure colors are applied correctly if they become white */
-     /* color: inherit !important; /* Or a specific color if needed */
+#video-preview{
+  display: block !important; /* Make sure it's displayed */
+    visibility: visible !important; /* Make sure it's visible */
+    opacity: 1 !important; /* Ensure it's not transparent */
+    background-color: transparent !important; /* Make sure its background is transparent */
 }
-
-
-/* --- End of New Rules --- */
 
 /* Needs Zillow */
 
