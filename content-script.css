@@ -71,37 +71,6 @@ svg {
     opacity: 1 !important; /* Ensure it's not transparent */
     background-color: transparent !important; /* Make sure its background is transparent */
 }
-
-/* Target the container of #post-image if needed */
-/* Inspecting the Reddit page's HTML would give you the exact parent element's class or ID */
-/* Example (replace .image-container or similar): */
-/*
-.image-container,
-.image-container * {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    background-color: transparent !important;
-}
-*/
-
-/* Ensure any parent elements that might hide it are also visible */
-/* This is a bit more aggressive, but might be necessary */
-/* Again, inspect the HTML to find relevant parent elements */
-/*
-#your-reddit-post-container-id,
-#your-reddit-post-container-id * {
-     display: flex !important; /* Or block, depending on original layout
-     visibility: visible !important;
-     opacity: 1 !important;
-     background-color: transparent !important;
-}
-*/
-
-
-/* Preserve Google Images Grid */
-/* Target the grid container and its children to prevent background changes */
-/* This might need adjustment based on Google's DOM structure */
 #islrg, /* The main grid container */
 #islrg .islir, /* Individual image containers */
 #islrg .islir img {
