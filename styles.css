@@ -1,5 +1,10 @@
-img {
-  border: 1px solid green !important;
+img, svg, video, canvas {
+  opacity: 0.2 !important;
+  mix-blend-mode: multiply !important;
+}
+
+picture{
+  border: 1px solid red !important;
 }
 svg{
   fill: white !important;
