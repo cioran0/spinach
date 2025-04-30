@@ -100,7 +100,6 @@ svg {
   background-color: transparent;
 }
 #video-preview{
-  display: block !important; /* Make sure it's displayed */
     visibility: visible !important; /* Make sure it's visible */
     opacity: 1 !important; /* Ensure it's not transparent */
     background-color: transparent !important; /* Make sure its background is transparent */
