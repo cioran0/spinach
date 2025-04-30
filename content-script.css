@@ -47,10 +47,6 @@ svg {
 /* Preserve Reddit Post Content and Prevent Hiding */
 /* We need more specific selectors to prevent Reddit's own styles from making content invisible */
 /* This is a starting point and might need refinement based on Reddit's current structure */
-.user-draw-content *{
-  color: green !important;
-    background-color: white;
-}
 
 .Post,
 .Post *,
@@ -87,6 +83,30 @@ svg {
     color: green !important;
 }
 
+/* for youtube overrides for ther video previews so they show up*/
+
+#description{
+  color:green !important;
+  background-color: transparent;
+}
+
+#spinner-container,
+#contents
+{
+  background-color: transparent !important;
+}
+#video-title {
+  color: green !important;
+  background-color: transparent;
+}
+#video-preview{
+  display: block !important; /* Make sure it's displayed */
+    visibility: visible !important; /* Make sure it's visible */
+    opacity: 1 !important; /* Ensure it's not transparent */
+    background-color: transparent !important; /* Make sure its background is transparent */
+}
+
+/* Needs Zillow */
 
 /* General overrides to prevent unwanted background changes on common elements */
 div, span, p, li, ul, table, tr, td {
