@@ -1,6 +1,6 @@
 {
-    "manifest_version": 2,
-    "name": "Force Colors",
+      "manifest_version": 2,
+    "name": "Spinach",
     "version": "1.0",
     "description": "Forces all webpage text to green and background to white.",
     "browser_specific_settings": {
