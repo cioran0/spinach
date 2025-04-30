@@ -1,5 +1,13 @@
+img {
+  border: 1px solid green !important;
+}
+svg{
+  fill: white !important;
+  stroke: green !important;
+}
+
 a:link {
-  color: green !important;
+  color: darkgreen !important;
   background-color: transparent !important;
   text-decoration: none;
 }
@@ -22,7 +30,7 @@ a:active {
   text-decoration: underline;
 }
 
-*:not(a):not(img):not(svg) {
+*:not(a):not(svg):not(img) {
     color: green !important;
     background-color: white !important;
   }
