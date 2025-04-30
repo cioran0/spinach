@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Force Colors",
+    "version": "1.0",
+    "description": "Forces all webpage text to green and background to white.",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "force-colors@example.net",
+        "strict_min_version": "109.0"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
