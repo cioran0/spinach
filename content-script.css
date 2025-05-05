@@ -4,10 +4,6 @@ body * {
 }
 
 /* Force Background to White */
-body,
-body * {
-  background-color: white !important;
-}
 
 a:link {
     color: darkgreen !important;
@@ -101,6 +97,7 @@ svg {
 }
 
 /* Thumbnails*/
+.yt-core-image,
 .ytd-thumbnail,
 .yt-img-shadow,
 .ytp-videowall-still,
