@@ -9,22 +9,13 @@
   },
     "permissions": [
       "activeTab",
-      "scripting",
-      "contextMenus"
+      "scripting"
     ],
-    "background": {
-      "scripts": ["background.js"]
-    },
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "css": ["custom-styles.css"],
+        "css": ["content-script.css"],
         "run_at": "document_start"
       }
-    ],
-    "action": {
-    "default_popup": "popup.html",
-    "default_icon": "images/icon48.png"
+    ]
   }
-}

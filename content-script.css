@@ -3,7 +3,7 @@ body * {
   color: green !important; /* Use !important to override existing styles */
 }
 
-/* Force Background to White for lists */
+/* Force Background to White */
 ul{
   background-color: white !important;
 }
@@ -46,6 +46,10 @@ svg {
 /* Preserve Reddit Post Content and Prevent Hiding */
 /* We need more specific selectors to prevent Reddit's own styles from making content invisible */
 /* This is a starting point and might need refinement based on Reddit's current structure */
+
+#user-drawer-content{
+  background-color: white !important;
+}
 
 .Post,
 .Post *,
@@ -121,12 +125,14 @@ svg {
     display: block !important;
 }
 
-/*Zillow transparency issue*/
+/* Video player element */
+
+/* Needs Zillow */
 .layout-content-container
 {
   background-color: white !important;
 }
-/*GOOGLE transparency issue*/
+/*GOOGLE*/
 .OBMEnb{
   background-color: white !important;
 }
