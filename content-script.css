@@ -4,6 +4,9 @@ body * {
 }
 
 /* Force Background to White */
+ul{
+  background-color: white !important;
+}
 
 a:link {
     color: darkgreen !important;
@@ -96,13 +99,16 @@ svg {
   background-color: transparent;
 }
 
+
+#chips-content,
+#masthead-container{
+  background-color: white !important;
+}
 /* Thumbnails*/
 .yt-core-image,
 .ytd-thumbnail,
 .yt-img-shadow,
 .ytp-videowall-still,
-.ytp-cued-thumbnail-overlay,
-.ytp-cued-thumbnail-overlay-image,
 .video-thumbnail,
 .yt-core-image,
 #thumbnail,
@@ -116,22 +122,16 @@ svg {
 }
 
 /* Video player element */
-.html5-video-player,
-.html5-main-video,
-.video-stream,
-.ytp-cued-thumbnail-overlay,
-#player,
-#player-container,
-#movie_player,
-.ytp-player-content,
-.ytp-iv-player-content
- {
-  background-color: transparent !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
 
 /* Needs Zillow */
+.layout-content-container
+{
+  background-color: white !important;
+}
+/*GOOGLE*/
+.OBMEnb{
+  background-color: white !important;
+}
 
 /* General overrides to prevent unwanted background changes on common elements */
 div, span, p, li, ul, table, tr, td {
