@@ -3,7 +3,7 @@ body * {
   color: green !important; /* Use !important to override existing styles */
 }
 
-/* Force Background to White */
+/* Force Background to White for lists */
 ul{
   background-color: white !important;
 }
@@ -121,14 +121,12 @@ svg {
     display: block !important;
 }
 
-/* Video player element */
-
-/* Needs Zillow */
+/*Zillow transparency issue*/
 .layout-content-container
 {
   background-color: white !important;
 }
-/*GOOGLE*/
+/*GOOGLE transparency issue*/
 .OBMEnb{
   background-color: white !important;
 }
