@@ -4,6 +4,7 @@ body * {
 }
 
 /* Force Background to White */
+#devsite-tabs-dropdown-content,
 ul{
   background-color: white !important;
 }
