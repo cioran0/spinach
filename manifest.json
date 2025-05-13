@@ -17,5 +17,13 @@
         "css": ["content-script.css"],
         "run_at": "document_start"
       }
-    ]
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "spinach@example.com"
+      },
+      "gecko_android": {
+        "id": "spinach@example.com"
+      }
+    }
   }
